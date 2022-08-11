@@ -1,7 +1,0 @@
-public class TesteVariaveis {
-    static public void main(String[] args){
-        String nome = "Diego";
-        int idade = 34;
-        System.out.println("Meu nome é " + nome + " tenho " + idade + " anos.");
-    }
-}

@@ -1,7 +1,0 @@
-INDEX VERSION 1.131+C:\Users\thyci\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-3582371734.index
-4061255125.index
-3474261689.index
-3468754545.index
-26406044.index
-2032847172.index
