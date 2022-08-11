@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfe7a351-1f0b-4981-8205-e9120da0489b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-biblioteca/bytebank-biblioteca.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-biblioteca/libs/bytebanck-herdado.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-biblioteca/src/br/com/alura/bytebanck/TesteBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-biblioteca/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/libraries/docs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/bytebank-herdado-conta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enum/java-enum/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-pilha/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebanck-herdado/Administrador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebanck-herdado/Administrador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebanck-herdado/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebanck-herdado/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebanck-herdado/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebanck-herdado/Gerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebanck-herdado/TesteGerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebanck-herdado/TesteGerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/CalculadorDeImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/SaldoInsuficienteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/SeguroDeVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/Tributavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/teste/TesteContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/teste/TesteSaca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytbank/banco/teste/TesteTributaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/TesteDuasExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytbank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytbank/banco/modelo/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytbank/banco/test/TesteTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytbank/banco/test/TesteTributaveis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-pilha/src/TesteDuasExceptions.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CknIw0El84otRca9i4ksWPctp8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16 (6)&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/thyci/OneDrive/Área de Trabalho/Java/CursoJavaAlura/sintaxe-basica-java/bytebank-herdado-conta/src/br/com/bytbank/banco&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/thyci/OneDrive/Área de Trabalho/Java/CursoJavaAlura/sintaxe-basica-java/bytebank-herdado-conta&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\bytebank-herdado-conta\src" />
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\bytebank-herdado-conta\src\modelo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\bytebank-biblioteca\libs" />
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\bytebank-herdado-conta\docs" />
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\enum" />
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\" />
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\bytebanck-herdado\.idea" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestaContaComExcecaoChecked">
+    <configuration name="TestaContaComExcecaoChecked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaContaComExcecaoChecked" />
+      <module name="java-pilha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytbank.banco.teste.TesteContas" />
+      <module name="bytebank-herdado-conta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytbank.banco.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteSaca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytbank.banco.teste.TesteSaca" />
+      <module name="bytebank-herdado-conta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytbank.banco.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteTributaveis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytbank.banco.teste.TesteTributaveis" />
+      <module name="bytebank-herdado-conta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytbank.banco.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste.TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.TesteContas" />
+      <module name="bytebank-herdado-conta" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestaContaComExcecaoChecked" />
+        <item itemvalue="Application.TesteTributaveis" />
+        <item itemvalue="Application.TesteSaca" />
+        <item itemvalue="Application.TesteContas" />
+        <item itemvalue="Application.teste.TesteContas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfe7a351-1f0b-4981-8205-e9120da0489b" name="Changes" comment="" />
+      <created>1659355377146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659355377146</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

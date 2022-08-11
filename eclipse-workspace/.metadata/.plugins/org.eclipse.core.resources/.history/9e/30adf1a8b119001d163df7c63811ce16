@@ -1,0 +1,29 @@
+public class TesteConversao {
+
+    public static void main(String[] args){
+        double salario = 1270.50;
+        int valor = (int) salario;
+        System.out.println(valor);
+
+        int inteiro = 2000000000;
+        System.out.println("Inteiro(4 bytes): " + inteiro);
+
+        double flutuante = 20000000.00;
+        System.out.println("Double(8 bytes): " + flutuante);
+
+        float pontoFlutuante = 3.14f;
+        System.out.println("Float(4 bytes): " + pontoFlutuante);
+
+        long numeroGrande = 2000000000;
+        System.out.println("long(8 bytes): " + numeroGrande);
+
+        short valorPequeno = 32000;
+        System.out.println("short(2 bytes): " + valorPequeno);
+
+        byte valorMuitoPequeno = 127;
+        System.out.println("byte(1 byte): " + valorMuitoPequeno);
+
+
+
+    }
+}

@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 5fb7729910ee862e01def87bf76518f4d88800db Diego Dantas <deigo_batista@hotmail.com> 1658596676 -0300	commit (initial): Initial commit
+5fb7729910ee862e01def87bf76518f4d88800db bd9b30b5775184d708a655147b8ad3f586d4f03e Diego Dantas <deigo_batista@hotmail.com> 1658596760 -0300	commit: Curso Java Alura
+bd9b30b5775184d708a655147b8ad3f586d4f03e 3a39d5a3c9d96fa4891901279476495cfe8d709a Diego Dantas <deigo_batista@hotmail.com> 1658601672 -0300	commit: Condicional e Escopo de variavel
+3a39d5a3c9d96fa4891901279476495cfe8d709a 62e2f142502d36cbff5be6f8acd1e92a164ee10c Diego Dantas <deigo_batista@hotmail.com> 1658608881 -0300	commit: Laços de repetição
+62e2f142502d36cbff5be6f8acd1e92a164ee10c 48634b51a446cb184d67cbc165dc14a39de08171 Diego Dantas <deigo_batista@hotmail.com> 1658925524 -0300	commit: Orientação Objeto
+48634b51a446cb184d67cbc165dc14a39de08171 62924ac7dd1655552d55e5aa4a323e1aaa60c43e Diego Dantas <deigo_batista@hotmail.com> 1659037373 -0300	commit: método static e construtor
+62924ac7dd1655552d55e5aa4a323e1aaa60c43e bc4c89b03507d96f85ae2c5df838d7a2c454b483 Diego Dantas <deigo_batista@hotmail.com> 1659353417 -0300	commit: Herança e Polimorfismo
+bc4c89b03507d96f85ae2c5df838d7a2c454b483 ff0a9fe20b477c04636046de99e9960982790aec Diego Dantas <deigo_batista@hotmail.com> 1659365163 -0300	commit: Introdução ao Polimorfismo
+ff0a9fe20b477c04636046de99e9960982790aec 7af31164d8e47f7d545ca4197c14b2a6726f285f Diego Dantas <deigo_batista@hotmail.com> 1659407581 -0300	commit: Herança, construtores e Polimorfismo
+7af31164d8e47f7d545ca4197c14b2a6726f285f 252be3093087dc8d2fae7328e889aef5bd753b96 Diego Dantas <deigo_batista@hotmail.com> 1659443018 -0300	commit: Classe e método Abstract
+252be3093087dc8d2fae7328e889aef5bd753b96 a0589008b945cf50644b23370c1f5375356042ed Diego Dantas <deigo_batista@hotmail.com> 1659477640 -0300	commit: Interface, abstract method, polimorfismo, herança
+a0589008b945cf50644b23370c1f5375356042ed d895e2e52fa0ca9e5bf752ea700bc874a97cf1ce Diego Dantas <deigo_batista@hotmail.com> 1659535444 -0300	commit: Enum
+d895e2e52fa0ca9e5bf752ea700bc874a97cf1ce 92f5db0799a311ece5185bfc08d995f51fb0a5a3 Diego Dantas <deigo_batista@hotmail.com> 1659562530 -0300	commit: Pilha
+92f5db0799a311ece5185bfc08d995f51fb0a5a3 7c2e9223fcc439d3987dfa4bda339d21643cb5ff Diego Dantas <deigo_batista@hotmail.com> 1659632710 -0300	commit: Try-catch
+7c2e9223fcc439d3987dfa4bda339d21643cb5ff 60a8c54d55c0fcd4e7703b1eaacad23817d69301 Diego Dantas <deigo_batista@hotmail.com> 1659753672 -0300	commit: throw exceptions
+60a8c54d55c0fcd4e7703b1eaacad23817d69301 5c2ee50e816dd7a5aa6fdda38db0904cbf8b97bf Diego Dantas <deigo_batista@hotmail.com> 1659886533 -0300	commit: Unchecked e Checked
+5c2ee50e816dd7a5aa6fdda38db0904cbf8b97bf 59cd1cb03137700c1a791b2cb77b9fe62182d0d8 Diego Dantas <deigo_batista@hotmail.com> 1659956071 -0300	commit: Testando unchecked
+59cd1cb03137700c1a791b2cb77b9fe62182d0d8 e1d174949678bc8dfb74a6663a03def24ccfe26d Diego Dantas <deigo_batista@hotmail.com> 1659956851 -0300	commit: Teste checked
+e1d174949678bc8dfb74a6663a03def24ccfe26d 2df9056c5f61e15aff9d384ab98094aed7293d01 Diego Dantas <deigo_batista@hotmail.com> 1659984392 -0300	commit: Finally
+2df9056c5f61e15aff9d384ab98094aed7293d01 12f8680d686e0dfb94a1f6cb83b581c849540bcb Diego Dantas <deigo_batista@hotmail.com> 1660066312 -0300	commit: package and imports
+12f8680d686e0dfb94a1f6cb83b581c849540bcb 65c7fd19c5b73d2a74c5d64e8cf1dce8c6a285b0 Diego Dantas <deigo_batista@hotmail.com> 1660072134 -0300	commit: javadoc

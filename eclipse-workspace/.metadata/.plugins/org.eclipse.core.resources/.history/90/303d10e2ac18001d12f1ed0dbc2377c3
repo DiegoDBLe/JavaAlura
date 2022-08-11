@@ -1,0 +1,8 @@
+
+public class Autenticador {
+	
+	private int senha;
+	
+	
+
+}

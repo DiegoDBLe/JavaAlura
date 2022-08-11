@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc88c006-0e28-4c7a-ac14-9f597ffc5a46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../bytebanck-herdado/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-biblioteca/libs/bytebanck-herdado.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-biblioteca/src/br/com/alura/bytebanck/TesteBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-biblioteca/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enum/java-enum/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-pilha/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/Administrador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/Administrador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/Gerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/TesteGerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebanck-herdado/TesteGerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/CalculadorDeImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/SaldoInsuficienteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/SeguroDeVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/modelo/Tributavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/teste/TesteContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/teste/TesteSaca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/bytebank-herdado-conta/br/com/bytbank/banco/teste/TesteTributaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebanck-herdado/out/production/java-pilha/TesteDuasExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-pilha/src/TesteDuasExceptions.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CWpjCU3vPsYntnion9FeJm9eBl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16 (6)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/thyci/OneDrive/Área de Trabalho/Java/CursoJavaAlura/sintaxe-basica-java/bytebanck-herdado/src&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\bytebanck-herdado\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thyci\OneDrive\Área de Trabalho\Java\CursoJavaAlura\sintaxe-basica-java\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TesteGerente (1)">
+    <configuration name="TesteFuncionario (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16 (6)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TesteFuncionario" />
+      <module name="bytebanck-herdado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteFuncionario" />
+      <module name="bytebanck-herdado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteGerente (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16 (6)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TesteGerente" />
+      <module name="bytebanck-herdado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteGerente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteGerente" />
+      <module name="bytebanck-herdado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testeTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeTeste" />
+      <module name="bytebanck-herdado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TesteGerente (1)" />
+        <item itemvalue="Application.TesteFuncionario (1)" />
+        <item itemvalue="Application.testeTeste" />
+        <item itemvalue="Application.TesteGerente" />
+        <item itemvalue="Application.TesteFuncionario" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc88c006-0e28-4c7a-ac14-9f597ffc5a46" name="Changes" comment="" />
+      <created>1658928328385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658928328385</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

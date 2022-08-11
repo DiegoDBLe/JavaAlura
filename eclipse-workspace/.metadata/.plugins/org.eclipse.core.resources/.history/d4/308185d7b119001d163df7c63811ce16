@@ -1,0 +1,51 @@
+public class Conta {
+    double saldo;
+    int agencia;
+    int numero;
+    String titular;
+
+    public void deposita(double valor) {
+        this.saldo += valor;
+        msgTransfere(valor);
+    }
+
+    public void msgSaque(double valor){
+        System.out.println("Saque efetuado com sucesso R$ "
+                + valor + " reais. " +
+                "\nNovo Saldo R$ " + this.saldo);
+    }
+
+    public void msgSaldoInsuficiente(double valor) {
+        System.out.println("Você tentou sacar R$ " + valor +
+                " reais.\nSaldo Insuficiente!"
+                + "\nSaldo Disponivel: R$ " + this.saldo);
+    }
+
+    public void msgTransfere(double valor){
+        System.out.println("Transferencia efetuado com sucesso no valor de " +
+                "R$ " + valor + " reais. " +
+                "\nNovo Saldo R$ " + this.saldo);
+    }
+
+    public boolean saca(double valor){
+        if (this.saldo >= valor){
+            this.saldo -= valor;
+            this.msgSaque(valor);
+            return true;
+        }else {
+            this.msgSaldoInsuficiente(valor);
+            return false;
+        }
+    }
+
+    public boolean transfere(double valor, Conta destino){
+        if (this.saldo >= valor){
+            this.saldo -= valor;
+            destino.deposita(valor);
+            this.msgTransfere(valor);
+            return true;
+        }
+        msgSaldoInsuficiente(valor);
+        return false;
+    }
+}

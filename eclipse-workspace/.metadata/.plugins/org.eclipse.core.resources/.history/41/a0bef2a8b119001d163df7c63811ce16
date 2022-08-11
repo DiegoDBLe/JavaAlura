@@ -1,0 +1,20 @@
+public class TestePontoFlutuante {
+    public static void main(String[] args){
+
+        double salario = 1250.70;
+        String nome = "Diego";
+        int idade = 34;
+
+        System.out.println("Meu nome é " + nome + " tenho " + idade + "anos" + " e meu salário é de R$ " + salario);
+
+        int divisao = 5 / 2;
+        System.out.println(divisao);
+
+        double novaDivisao = 5.0 / 2;
+        System.out.println(novaDivisao);
+
+        double teste = divisao + novaDivisao;
+        System.out.println(teste);
+
+    }
+}

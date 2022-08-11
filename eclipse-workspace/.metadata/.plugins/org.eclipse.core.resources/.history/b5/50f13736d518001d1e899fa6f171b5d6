@@ -1,0 +1,16 @@
+
+public enum PrioridadeEnum {
+	
+	MIN(), NORMAL(),  MAX();
+	
+	private int valor;
+	
+	PrioridadeEnum(int valor){
+		this.valor = valor;
+	}
+	
+	public int getValor() {
+		return this.valor;
+	}
+
+}

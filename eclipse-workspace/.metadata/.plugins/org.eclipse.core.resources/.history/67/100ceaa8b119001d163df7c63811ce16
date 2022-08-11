@@ -1,0 +1,18 @@
+public class TestaCaracteres {
+    public static void main(String[] args){
+        char umaLetra = 'a';
+        System.out.println(umaLetra);
+
+        char charEhUmInteiro = 66;
+        System.out.println(charEhUmInteiro);
+
+        umaLetra = (char) (charEhUmInteiro + 1);
+        System.out.println(umaLetra);
+
+        String palavra = "Alura cursos";
+        System.out.println(palavra);
+
+        palavra = palavra + 2020;
+        System.out.println(palavra);
+    }
+}
