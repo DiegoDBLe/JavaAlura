@@ -1,0 +1,20 @@
+package br.com.alura.java.io.teste;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class TesteEscreverArquivoMaisGeneric {
+
+	public static void main(String[] args) throws IOException {
+
+		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt")); // Classe que possui um método para fazer a escrita  dos caracteres;
+		
+		bw.write("Testando classe FileWriter");
+		bw.newLine();
+		bw.write("Pulei uma linha");
+		
+		
+	}
+
+}

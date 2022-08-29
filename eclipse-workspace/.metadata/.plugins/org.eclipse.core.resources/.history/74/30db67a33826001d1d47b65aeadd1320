@@ -1,0 +1,17 @@
+package br.com.alura.java.io.teste;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class TesteSerializacaoCriandoArquivoBin {
+
+	public static void main(String[] args) throws IOException {
+		
+		String nome = "Diego Dantas";
+		
+		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("objeto.bin"));
+		
+	}
+
+}

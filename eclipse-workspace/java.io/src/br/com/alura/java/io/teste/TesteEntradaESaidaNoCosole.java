@@ -1,0 +1,44 @@
+package br.com.alura.java.io.teste;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Reader;
+import java.io.Writer;
+
+public class TesteEntradaESaidaNoCosole {
+
+	public static void main(String[] args) throws IOException {
+		
+		// Fluxo de entrada com Arquivo  txt:
+		// Entrada
+		InputStream fis = System.in;
+		Reader isr = new InputStreamReader(fis); // Tranfosrmando os bits e bytes em um caracter;
+		BufferedReader br = new BufferedReader(isr); // Classe que possui um método para fazer a leitura dos caracteres;
+
+		// Saida
+		OutputStream fos = System.out;
+		Writer osw = new OutputStreamWriter(fos); // Tranfosrmando os bits e bytes em um caracter;
+		BufferedWriter bw = new BufferedWriter(osw); // Classe que possui um método para fazer a escrita  dos caracteres;
+		
+		// Método que lê a linha. Esse método devolve String quando tem e
+		// devolve null quando não tem mais caractere.
+		String linha = br.readLine(); 
+		
+		// Iterando no arquivo txt, enquanto a linha for diferente de null
+		// Escrevendo na linha caso nao seja nula.
+		while(linha != null && !linha.isEmpty()) {
+			bw.write(linha);
+			bw.newLine();
+			bw.flush(); // Método para mostrar, descarregar tudo na tela.
+			linha = br.readLine();
+		}
+		br.close(); // Fechando o arquivo
+		bw.close();
+	}
+
+}

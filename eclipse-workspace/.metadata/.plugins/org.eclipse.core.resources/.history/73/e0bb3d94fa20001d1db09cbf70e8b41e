@@ -1,0 +1,5 @@
+package br.com.bytebanck.banco.tests.util;
+
+public class TesteExercicioComparable {
+
+}

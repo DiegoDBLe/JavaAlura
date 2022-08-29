@@ -1,0 +1,9 @@
+package br.com.bytebanck.banco.tests.io;
+
+public class TesteDesserializacao {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

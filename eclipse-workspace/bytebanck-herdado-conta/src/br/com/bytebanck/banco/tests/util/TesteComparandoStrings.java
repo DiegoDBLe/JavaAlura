@@ -1,0 +1,100 @@
+package br.com.bytebanck.banco.tests.util;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+import br.com.bytebanck.banco.modelo.Cliente;
+import br.com.bytebanck.banco.modelo.Conta;
+import br.com.bytebanck.banco.modelo.ContaCorrente;
+import br.com.bytebanck.banco.modelo.ContaPoupanca;
+
+public class TesteComparandoStrings {
+
+	public static void main(String[] args) {
+		
+		Conta cc1 = new ContaCorrente(22, 33);
+		Cliente clienteCC1 = new Cliente();
+		clienteCC1.setNome("Pirulito");
+		cc1.setTitullar(clienteCC1);
+		cc1.deposita(333.0);
+		
+		Conta cc2 = new ContaPoupanca(22, 44);
+		Cliente clienteCC2 = new Cliente();
+		clienteCC2.setNome("Max");
+		cc2.setTitullar(clienteCC2);
+		cc2.deposita(444.0);
+		
+		Conta cc3 = new ContaCorrente(22, 11);
+		Cliente clienteCC3 = new Cliente();
+		clienteCC3.setNome("Levi");
+		cc3.setTitullar( clienteCC3);
+		cc2.deposita(111.0);
+		
+		Conta cc4 = new ContaPoupanca(22, 22);
+		Cliente clienteCC4 = new Cliente();
+		clienteCC4.setNome("Diego");
+		cc4.setTitullar(clienteCC4);
+		cc4.deposita(222.0);
+		
+		System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*--*-*-");
+		System.out.println("--- Ordem de adição natural  na lista: --- ");
+		
+		List<Conta> lista = new ArrayList<Conta>();
+		lista.add(cc1);
+		lista.add(cc2);
+		lista.add(cc3);
+		lista.add(cc4);
+		
+		for (Conta conta : lista) {
+			System.out.println(conta+ " - " + conta.getTitullar().getNome());
+		}
+		
+		System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*--*-*-");
+		System.out.println("--- Ordem sort(comparator) pela String na lista: --- ");
+		
+		//TitlarDaContaComparator comparator = new TitlarDaContaComparator();
+		// OU 
+		// lista.sort(new TitlarDaContaComparator());
+		// OU
+		// Ordenando pelo saldo, como foi definido na classe Conta, no método compareTo()
+		Collections.sort(lista);
+		
+		for (Conta conta : lista) {
+			System.out.println(conta + " - " + conta.getTitullar().getNome());
+		}
+			
+		}
+		
+	}
+
+class TitlarDaContaComparator implements Comparator<Conta>{
+
+	public int compare(Conta c1, Conta c2) {
+		
+		// Pegando o nome do titular de cada conta
+		String nomeC1 = c1.getTitullar().getNome();
+		String nomeC2 = c2.getTitullar().getNome();
+		
+		// Método compareTo retorna um valor int (negativo) -1 se o primeiro(nomeC1) for menor;
+		// retoirna positivo +1 se o primeiro(nomeC1)  for maior que o segundo;
+		// retorna zero(0) se o primeiro for igual ao segundo;
+		// Mesma coisa do Classe NumeroDaContaComparator
+		return nomeC1.compareTo(nomeC2);
+	}
+}
+
+//class NumeroDaContaComparator implements Comparator<Conta>{
+//
+//	public int compare(Conta c1, Conta c2) {
+//		
+//		if(c1.getNumero() < c2.getNumero()) {
+//			return -1;
+//		} 
+//		if (c1.getNumero() > c2.getNumero()) {
+//			return +1;			
+//		}
+//		return 0;
+//	}	
+//}

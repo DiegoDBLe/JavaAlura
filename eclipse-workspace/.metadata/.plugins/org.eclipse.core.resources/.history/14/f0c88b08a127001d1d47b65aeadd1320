@@ -1,0 +1,14 @@
+package br.com.bytebanck.banco.tests.io;
+
+import br.com.bytebanck.banco.modelo.Cliente;
+
+public class TesteSerializacao {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		cliente.setNome("Diego");
+		cliente.setProfissao("Dev");
+	}
+
+}
