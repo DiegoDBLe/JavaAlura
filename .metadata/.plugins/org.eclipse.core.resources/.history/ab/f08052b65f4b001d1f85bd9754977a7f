@@ -1,0 +1,51 @@
+package br.com.alura.gerenciador.servlet;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Banco {
+	
+	private static List<Empresa> listaEmpresas = new ArrayList<>();
+	private static Integer chaveSequencial = 1;
+
+	static {
+		Empresa empresa = new Empresa();
+		empresa.setId(chaveSequencial++);
+		empresa.setNome("Alura");
+		
+		Empresa empresa2 = new Empresa();
+		empresa2.setId(chaveSequencial++);
+		empresa2.setNome("Caelum");
+		
+		listaEmpresas.add(empresa);
+		listaEmpresas.add(empresa2);
+	}
+	public void adicionar(Empresa empresa) {
+		empresa.setId(Banco.chaveSequencial++);
+		Banco.listaEmpresas.add(empresa);
+	}
+
+	public List<Empresa> getEmpresas(){
+		return Banco.listaEmpresas;
+	}
+
+	public void removeEmpresa(Integer id) {
+		
+		// Usando o Iterator do tipo Empresa que recebe a lsiat de empresas com o método iterator().
+		Iterator<Empresa> it = listaEmpresas.iterator();
+		
+		
+		
+		// Iterando com o for: Porém quando clicamos em remover o for não consegue iterar e alterar a lista ao mesmo tempo.Para isso vamos usar o Iterator
+		// Primeiro fazemos um laço usando nossa lista e a cada iteração perguntamos se o id da empresa é igual ao id do parametro.
+		//		for (Empresa empresa : listaEmpresas) {
+		//			if(empresa.getId() == id) {
+		//				listaEmpresas.remove(empresa);
+		//			}
+		//			
+		//		}
+		
+	}
+	
+}

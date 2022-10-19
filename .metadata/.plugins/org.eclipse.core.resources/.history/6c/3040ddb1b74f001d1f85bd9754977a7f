@@ -1,0 +1,37 @@
+package br.com.alura.gerenciador.acao;
+
+import java.io.IOException;
+
+import br.com.alura.gerenciador.modelo.Banco;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class NovaEmpresa {
+
+	public void executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// Lendo o parametro: e sempre retorna uma String. Precisamos passar para
+		// Integer atraves do parsInt
+		String parametroId = request.getParameter("id");
+		Integer id = Integer.valueOf(parametroId);
+
+		System.out.println(id);
+
+		// Ou seja, o parametro id passado no arquivo jsp ${empresa.id} o nosso servlet
+		// está conseguindo pegar esse id do parametro da URL.
+		// Agora, precisamos apagar a empresa correspondente ao id.
+		// Para isso vamos criar uma instancia do tipo Banco, simulando o banco de
+		// dados.
+		// Também precisamos criar um método removeEmpresa(recebe o id da empresa como
+		// parametro e verifica se o ) que remove a empresa pelo id:
+
+		Banco banco = new Banco();
+		banco.removeEmpresa(id);
+
+		// Fazer o redirecionamento após apagar a empresa. Redirecionando para
+		// listaEmpresas:
+		response.sendRedirect("listaEmpresas");
+
+	}
+
+}

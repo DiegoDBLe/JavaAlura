@@ -1,0 +1,32 @@
+package br.com.alura.gerenciador.acao;
+
+import java.io.IOException;
+import java.util.List;
+
+import br.com.alura.gerenciador.modelo.Banco;
+import br.com.alura.gerenciador.modelo.Empresa;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class MostraEmpresa {
+
+	public void executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		String paramId = request.getParameter("id");
+		Integer id = Integer.valueOf(paramId);
+		
+		Banco banco = new Banco();
+		Empresa empresa = banco.buscarEmpresaById(id);
+		
+		// Mandar os dados da requisição para popular o formularios:
+		request.setAttribute("empresa", empresa);
+		// Dispachar a requisição para o arquivo JSP:
+		RequestDispatcher rd = request.getRequestDispatcher("/formAlteraEmpresa.jsp");
+		// Mandar a requisição e a resposta:
+		rd.forward(request, response);
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package br.com.alura.gerenciador.acao;
+
+import java.util.List;
+
+import br.com.alura.gerenciador.modelo.Banco;
+import br.com.alura.gerenciador.modelo.Empresa;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class ListaEmpresas {
+
+	public void executa(HttpServletRequest request, HttpServletResponse response) {
+		// Servlet vai ler as empresas.
+		Banco banco = new Banco();
+		List<Empresa> listaEmpresa = banco.getEmpresas();
+
+		// Pendurando: ou seja, colocar dentro da requisição o atributo (empresas) é o
+		// mesmo que vai no items = do forEach.
+		request.setAttribute("empresas", listaEmpresa);
+
+		// Integrando com o arquivo JSP:
+		RequestDispatcher rd = request.getRequestDispatcher("/listaEmpresas.jsp");
+		rd.forward(request, response);
+
+	}
+
+}

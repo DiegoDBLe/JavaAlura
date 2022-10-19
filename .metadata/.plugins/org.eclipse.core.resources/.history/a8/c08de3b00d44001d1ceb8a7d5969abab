@@ -1,0 +1,58 @@
+package br.com.alura.gerenciador.servlet;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+/*
+ * url(/novaEmpresa)
+ */
+public class NovaEmpresaServlet extends HttpServlet {
+	
+	private static final long serialVersionUID = 1L;
+
+
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		System.out.println("Cadastrando nova empresa");
+		
+		// Leitura
+		String nomeEmpresa = request.getParameter("nome"); // Pegando o valor da variavel nome da url
+		String paramDataEmpresa = request.getParameter("data");
+		
+		// Parsing
+		
+		try {
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			Date dataAbertura = sdf.parse(paramDataEmpresa);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		// População
+		Empresa empresa = new Empresa();
+		empresa.setNome(nomeEmpresa);
+		
+		Banco banco = new Banco();
+		banco.adicionar(empresa);
+		
+		//Chamar JSP
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/novaEmpresaCriada.jsp");
+		request.setAttribute("empresa", empresa.getNome());
+		dispatcher.forward(request, response);
+		
+		
+		// "Apagando" a linha de baixo pois colocamos esse codigo HTML no arquivo JSP.
+		//PrintWriter out = response.getWriter();
+		//out.println("<html><body>Empresa " + nomeEmpresa +  " Cadastrada com Sucesso!</html></body>");
+	}
+
+}

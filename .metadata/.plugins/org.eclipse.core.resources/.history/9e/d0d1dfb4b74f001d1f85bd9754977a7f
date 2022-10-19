@@ -1,0 +1,58 @@
+package br.com.alura.gerenciador.acao;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import br.com.alura.gerenciador.modelo.Banco;
+import br.com.alura.gerenciador.modelo.Empresa;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class NovaEmpresa {
+
+	public void executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("Cadastrando nova empresa");
+
+		// Leitura do parametro da url
+		String nomeEmpresa = request.getParameter("nome"); // Pegando o valor da variavel nome da url
+		String paramDataEmpresa = request.getParameter("data");
+
+		// Parsing, ou seja transformando o retorno String de paramDataEmpresa para Date
+		Date dataAbertura = null; // declarando fora do escopo try{} catch para poder chamar variavel no set.
+		try {
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			dataAbertura = sdf.parse(paramDataEmpresa);
+		} catch (ParseException e) {
+			throw new ServletException(e);
+		}
+
+		// População
+		Empresa empresa = new Empresa();
+		empresa.setNome(nomeEmpresa);
+		empresa.setDataAbertura(dataAbertura);
+
+		Banco banco = new Banco();
+		banco.adicionar(empresa);
+
+		request.setAttribute("empresa", empresa.getNome());
+
+		// Fazendo o redirecionamento, após cadastrar a nova empresa.
+		response.sendRedirect("listaEmpresas");
+
+		// Chamar JSP
+//		RequestDispatcher dispatcher = request.getRequestDispatcher("/listaEmpresas");
+//		request.setAttribute("empresa", empresa.getNome());
+//		dispatcher.forward(request, response);
+//		
+
+		// "Apagando" a linha de baixo pois colocamos esse codigo HTML no arquivo JSP.
+		// PrintWriter out = response.getWriter();
+		// out.println("<html><body>Empresa " + nomeEmpresa + " Cadastrada com
+		// Sucesso!</html></body>");
+
+	}
+
+}

@@ -1,0 +1,4 @@
+127.0.0.1 - - [23/Sep/2022:15:45:22 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [23/Sep/2022:15:45:32 -0300] "GET /gerenciador/novaEmpresa?nome=Fortaleza HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [23/Sep/2022:15:45:36 -0300] "GET /gerenciador/novaEmpresa?nome=Fortaleza HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [23/Sep/2022:15:45:37 -0300] "GET /favicon.ico HTTP/1.1" 404 775
